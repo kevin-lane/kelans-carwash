@@ -1,0 +1,25 @@
+.CancellationForm{
+    margin: auto;
+    background-color: blanchedalmond;
+    width: 50%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.CancellationInput{
+    margin-right: 50px;
+    width: 30%;
+    height: 25px;
+    border: transparent;
+}
+.CancellationInput:focus{
+    outline: none;
+}
+
+.CancellationButton{
+    background-color: red;
+    border: none;
+    color: white;
+    height: 25px;
+}

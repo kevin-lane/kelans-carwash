@@ -1,0 +1,23 @@
+.menuList{
+    margin: auto;
+    background-color: blanchedalmond;
+    width: 50%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.menuListItems{
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bookingBtn{
+    float: right;
+    cursor: pointer;
+    margin-top: -10px;
+    border: transparent;
+    background-color: gray;
+    color: white;
+    width: 20%;
+}

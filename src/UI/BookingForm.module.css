@@ -1,0 +1,24 @@
+.CustomerInput{
+    margin-right: 15px;
+}
+
+.VehicleInput{
+    width: 349px;
+}
+
+.ActionButtons{
+    margin-right: 50px;
+    height: 50px;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#cancelBtn{
+    background-color: red;
+}
+
+#submitBtn{
+    background-color: rgb(8, 77, 8);
+}

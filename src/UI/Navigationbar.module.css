@@ -1,0 +1,30 @@
+.Navbar{
+    width: 100%;
+    color: white;
+    background-color: rgb(80, 80, 202);
+    text-align: center;
+    height: 50px;
+    margin-top: 0;
+}
+
+.Navbar li {
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 12px;
+    
+}
+
+.Navbar li button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    color: burlywood;
+}
+
+.Logo{
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    top: -10px;
+}

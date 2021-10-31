@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import CancelOrder from './UI/CancelOrder';
+import CarwashMenu from './UI/CarwashMenu';
+import Navigationbar from './UI/Navigationbar';
 
 function App() {
+  const [orderCancellation, setOrderCancellation] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigationbar goHome={() => setOrderCancellation(false)} cancelOrder={() => setOrderCancellation(true)} />
+      {orderCancellation ? <CancelOrder /> : <CarwashMenu />}
     </div>
   );
 }
